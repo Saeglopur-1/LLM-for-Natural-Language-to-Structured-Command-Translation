@@ -1,0 +1,9 @@
+# requirements.txt
+python-dotenv
+langchain
+langchain-openai  # Or another LLM provider like langchain-huggingface
+torch
+transformers
+sentence-transformers
+faiss-cpu # or faiss-gpu for CUDA support
+pydantic
